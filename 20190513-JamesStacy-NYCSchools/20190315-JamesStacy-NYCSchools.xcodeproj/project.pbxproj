@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1E37F9223CA07E00887778 /* ShowResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E37F8223CA07E00887778 /* ShowResultsViewController.swift */; };
+		FB5F0365223D77760015F608 /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0358223D77760015F608 /* logo40.png */; };
+		FB5F0366223D77760015F608 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0359223D77760015F608 /* logo120.png */; };
+		FB5F0367223D77760015F608 /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035A223D77760015F608 /* logo87.png */; };
+		FB5F0368223D77760015F608 /* logo167.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035B223D77760015F608 /* logo167.png */; };
+		FB5F0369223D77760015F608 /* logo20.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035C223D77760015F608 /* logo20.png */; };
+		FB5F036A223D77760015F608 /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035D223D77760015F608 /* logo80.png */; };
+		FB5F036B223D77760015F608 /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035E223D77760015F608 /* logo152.png */; };
+		FB5F036C223D77760015F608 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F035F223D77760015F608 /* logo58.png */; };
+		FB5F036D223D77760015F608 /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0360223D77760015F608 /* logo180.png */; };
+		FB5F036E223D77760015F608 /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0361223D77760015F608 /* logo29.png */; };
+		FB5F036F223D77760015F608 /* logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0362223D77760015F608 /* logo76.png */; };
+		FB5F0370223D77760015F608 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0363223D77760015F608 /* logo.png */; };
+		FB5F0371223D77760015F608 /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5F0364223D77760015F608 /* logo60.png */; };
+		FB72F409223C247500D2B326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72F408223C247500D2B326 /* AppDelegate.swift */; };
+		FB72F40E223C247500D2B326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB72F40C223C247500D2B326 /* Main.storyboard */; };
+		FB72F410223C247600D2B326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB72F40F223C247600D2B326 /* Assets.xcassets */; };
+		FB72F413223C247600D2B326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB72F411223C247600D2B326 /* LaunchScreen.storyboard */; };
+		FB72F41B223C24A400D2B326 /* NYCSchoolsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72F41A223C24A400D2B326 /* NYCSchoolsPickerViewController.swift */; };
+		FB7B32F4228A144600047B7A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B32F3228A144600047B7A /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB1E37F8223CA07E00887778 /* ShowResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultsViewController.swift; sourceTree = "<group>"; };
+		FB5F0358223D77760015F608 /* logo40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo40.png; sourceTree = "<group>"; };
+		FB5F0359223D77760015F608 /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = "<group>"; };
+		FB5F035A223D77760015F608 /* logo87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo87.png; sourceTree = "<group>"; };
+		FB5F035B223D77760015F608 /* logo167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo167.png; sourceTree = "<group>"; };
+		FB5F035C223D77760015F608 /* logo20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo20.png; sourceTree = "<group>"; };
+		FB5F035D223D77760015F608 /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = "<group>"; };
+		FB5F035E223D77760015F608 /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo152.png; sourceTree = "<group>"; };
+		FB5F035F223D77760015F608 /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = "<group>"; };
+		FB5F0360223D77760015F608 /* logo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo180.png; sourceTree = "<group>"; };
+		FB5F0361223D77760015F608 /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo29.png; sourceTree = "<group>"; };
+		FB5F0362223D77760015F608 /* logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo76.png; sourceTree = "<group>"; };
+		FB5F0363223D77760015F608 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FB5F0364223D77760015F608 /* logo60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo60.png; sourceTree = "<group>"; };
+		FB72F405223C247500D2B326 /* 20190315-JamesStacy-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190315-JamesStacy-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB72F408223C247500D2B326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB72F40D223C247500D2B326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB72F40F223C247600D2B326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB72F412223C247600D2B326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB72F414223C247600D2B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB72F41A223C24A400D2B326 /* NYCSchoolsPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsPickerViewController.swift; sourceTree = "<group>"; };
+		FB7B32F3228A144600047B7A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB72F402223C247500D2B326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5F0372223D77920015F608 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F0363223D77760015F608 /* logo.png */,
+				FB5F035C223D77760015F608 /* logo20.png */,
+				FB5F0361223D77760015F608 /* logo29.png */,
+				FB5F0358223D77760015F608 /* logo40.png */,
+				FB5F035F223D77760015F608 /* logo58.png */,
+				FB5F0364223D77760015F608 /* logo60.png */,
+				FB5F0362223D77760015F608 /* logo76.png */,
+				FB5F035D223D77760015F608 /* logo80.png */,
+				FB5F035A223D77760015F608 /* logo87.png */,
+				FB5F0359223D77760015F608 /* logo120.png */,
+				FB5F035E223D77760015F608 /* logo152.png */,
+				FB5F035B223D77760015F608 /* logo167.png */,
+				FB5F0360223D77760015F608 /* logo180.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		FB72F3FC223C247500D2B326 = {
+			isa = PBXGroup;
+			children = (
+				FB72F407223C247500D2B326 /* 20190315-JamesStacy-NYCSchools */,
+				FB72F406223C247500D2B326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB72F406223C247500D2B326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB72F405223C247500D2B326 /* 20190315-JamesStacy-NYCSchools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB72F407223C247500D2B326 /* 20190315-JamesStacy-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				FB72F408223C247500D2B326 /* AppDelegate.swift */,
+				FB72F40C223C247500D2B326 /* Main.storyboard */,
+				FB72F41A223C24A400D2B326 /* NYCSchoolsPickerViewController.swift */,
+				FB7B32F3228A144600047B7A /* Model.swift */,
+				FB1E37F8223CA07E00887778 /* ShowResultsViewController.swift */,
+				FB72F40F223C247600D2B326 /* Assets.xcassets */,
+				FB5F0372223D77920015F608 /* Icons */,
+				FB72F411223C247600D2B326 /* LaunchScreen.storyboard */,
+				FB72F414223C247600D2B326 /* Info.plist */,
+			);
+			path = "20190315-JamesStacy-NYCSchools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB72F404223C247500D2B326 /* 20190315-JamesStacy-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB72F417223C247600D2B326 /* Build configuration list for PBXNativeTarget "20190315-JamesStacy-NYCSchools" */;
+			buildPhases = (
+				FB72F401223C247500D2B326 /* Sources */,
+				FB72F402223C247500D2B326 /* Frameworks */,
+				FB72F403223C247500D2B326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20190315-JamesStacy-NYCSchools";
+			productName = "20190315-JamesStacy-NYCSchools";
+			productReference = FB72F405223C247500D2B326 /* 20190315-JamesStacy-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB72F3FD223C247500D2B326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "James Stacy";
+				TargetAttributes = {
+					FB72F404223C247500D2B326 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FB72F400223C247500D2B326 /* Build configuration list for PBXProject "20190315-JamesStacy-NYCSchools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB72F3FC223C247500D2B326;
+			productRefGroup = FB72F406223C247500D2B326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB72F404223C247500D2B326 /* 20190315-JamesStacy-NYCSchools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB72F403223C247500D2B326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F0369223D77760015F608 /* logo20.png in Resources */,
+				FB5F0366223D77760015F608 /* logo120.png in Resources */,
+				FB5F0365223D77760015F608 /* logo40.png in Resources */,
+				FB5F0370223D77760015F608 /* logo.png in Resources */,
+				FB5F036A223D77760015F608 /* logo80.png in Resources */,
+				FB72F413223C247600D2B326 /* LaunchScreen.storyboard in Resources */,
+				FB5F036C223D77760015F608 /* logo58.png in Resources */,
+				FB5F036D223D77760015F608 /* logo180.png in Resources */,
+				FB5F0371223D77760015F608 /* logo60.png in Resources */,
+				FB5F0368223D77760015F608 /* logo167.png in Resources */,
+				FB5F0367223D77760015F608 /* logo87.png in Resources */,
+				FB5F036F223D77760015F608 /* logo76.png in Resources */,
+				FB72F410223C247600D2B326 /* Assets.xcassets in Resources */,
+				FB5F036E223D77760015F608 /* logo29.png in Resources */,
+				FB72F40E223C247500D2B326 /* Main.storyboard in Resources */,
+				FB5F036B223D77760015F608 /* logo152.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB72F401223C247500D2B326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72F409223C247500D2B326 /* AppDelegate.swift in Sources */,
+				FB1E37F9223CA07E00887778 /* ShowResultsViewController.swift in Sources */,
+				FB72F41B223C24A400D2B326 /* NYCSchoolsPickerViewController.swift in Sources */,
+				FB7B32F4228A144600047B7A /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB72F40C223C247500D2B326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB72F40D223C247500D2B326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB72F411223C247600D2B326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB72F412223C247600D2B326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB72F415223C247600D2B326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB72F416223C247600D2B326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB72F418223C247600D2B326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "20190315-JamesStacy-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.movementinaction.-0190315-JamesStacy-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB72F419223C247600D2B326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "20190315-JamesStacy-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.movementinaction.-0190315-JamesStacy-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB72F400223C247500D2B326 /* Build configuration list for PBXProject "20190315-JamesStacy-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72F415223C247600D2B326 /* Debug */,
+				FB72F416223C247600D2B326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB72F417223C247600D2B326 /* Build configuration list for PBXNativeTarget "20190315-JamesStacy-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72F418223C247600D2B326 /* Debug */,
+				FB72F419223C247600D2B326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB72F3FD223C247500D2B326 /* Project object */;
+}
